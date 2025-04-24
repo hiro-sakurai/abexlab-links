@@ -11,5 +11,5 @@ module.exports = (req, res) => {
     return;
   }
 
-  res.status(200).json({ message: "success1!" });
+  res.status(200).json({ message: "success!" });
 };
