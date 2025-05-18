@@ -13,6 +13,7 @@ module.exports = (req, res) => {
 
   res.status(200).json({ 
     link1: "https://abexlab.uz",
-    link2: "https://abex.uz"
+    link2: "https://abex.uz",
+    link3: "https://t.me/Sakurai_Hiro"
   });
 };
