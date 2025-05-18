@@ -11,5 +11,8 @@ module.exports = (req, res) => {
     return;
   }
 
-  res.status(200).json({ link: "https://abexlab.uz" });
+  res.status(200).json({ 
+    link1: "https://abexlab.uz",
+    link2: "https://abex.uz"
+  });
 };
